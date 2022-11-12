@@ -1,0 +1,46 @@
+{
+  "autos": [
+    {
+      "modelo": "Fiat Uno",
+      "precio": 1000
+    },
+    {
+      "modelo": "Peugeot 206",
+      "precio": 1500
+    },
+    {
+      "modelo": "Citroen Berlingo",
+      "precio": 2500
+    }
+  ],
+  "years": [
+    {
+      "anio": 2022,
+      "porcentajePrecio": 1
+    },
+    {
+      "anio": 2021,
+      "porcentajePrecio": 0.9
+    },
+    {
+      "anio": 2020,
+      "porcentajePrecio": 0.8
+    },
+    {
+      "anio": 2019,
+      "porcentajePrecio": 0.7
+    },
+    {
+      "anio": 2018,
+      "porcentajePrecio": 0.6
+    },
+    {
+      "anio": 2017,
+      "porcentajePrecio": 0.5
+    },
+    {
+      "anio": 2016,
+      "porcentajePrecio": 0.4
+    }
+  ]
+}

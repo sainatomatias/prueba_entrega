@@ -1,12 +1,14 @@
 #muralla-general {
   width: 100%;
-  height: 700px;
-  background-image: url(../img/fondo2.png);
+  height: 500px;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #muralla-cotizador {
     width: 100%;
-    height: 800px;
+    height: 600px;
     background-color: #BDC1DE;
   }
 

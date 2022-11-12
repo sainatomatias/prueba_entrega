@@ -25,6 +25,21 @@
       <section id="muralla-general">
         <div class="container d-flex muralla-contenido">
           <h1 class="muralla-nosotros">Sobre nosotros</h1>
+          <p>
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum
+            cerebro. De carne lumbering animata corpora quaeritis. Summus brains
+            sit​​, morbo vel maleficia? De apocalypsi gorger omero undead
+            survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
+            evil stalking monstra adventus resi dentevil vultus comedat
+            cerebella viventium. Qui animated corpse, cricket bat max brucks
+            terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat
+            mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum
+            defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut
+            malus putrid voodoo horror. Nigh tofth eliv ingdead. Cum horribilem
+            walking dead resurgere de crazed sepulcris creaturis, zombie sicut
+            de grave feeding iride et serpens. Pestilentia, shaun ofthe dead
+            scythe animated corpses ipsa screams. Pestilentia est plague.
+          </p>
         </div>
       </section>
       <section id="muralla-cotizador">
@@ -33,48 +48,97 @@
 
           <div class="input-group mb-3 opcion-cotizador">
             <div class="input-group-prepend opcion-cotizador-texto">
-              <label class="input-group-text" for="inputGroupSelect01">Marca</label>
+              <label class="input-group-text" for="inputGroupSelect01"
+                >Modelo</label
+              >
             </div>
-            <select class="custom-select opcion-cotizador-dropdown" id="dropdownMarca">
+            <select
+              class="custom-select opcion-cotizador-dropdown"
+              id="dropdownModeloOpciones"
+            >
               <option value="nada" selected>Elegi uno...</option>
             </select>
           </div>
 
           <div class="input-group mb-3 opcion-cotizador">
             <div class="input-group-prepend opcion-cotizador-texto">
-              <label class="input-group-text" for="inputGroupSelect01">Modelo</label>
+              <label class="input-group-text" for="inputGroupSelect01"
+                >Año</label
+              >
             </div>
-            <select class="custom-select opcion-cotizador-dropdown" id="dropdownModeloOpciones">
+            <select
+              class="custom-select opcion-cotizador-dropdown"
+              id="dropdownAnioOpciones"
+            >
               <option value="nada" selected>Elegi uno...</option>
             </select>
           </div>
 
           <div class="input-group mb-3 opcion-cotizador">
             <div class="input-group-prepend opcion-cotizador-texto">
-              <label class="input-group-text" for="inputGroupSelect01">Año</label>
+              <label class="input-group-text" for="inputGroupSelect01"
+                >Plan</label
+              >
             </div>
-            <select class="custom-select opcion-cotizador-dropdown" id="dropdownAnioOpciones">
+            <select
+              class="custom-select opcion-cotizador-dropdown"
+              id="dropdownPlanOpciones"
+            >
               <option value="nada" selected>Elegi uno...</option>
             </select>
           </div>
 
-          <div class="input-group mb-3 opcion-cotizador">
-            <div class="input-group-prepend opcion-cotizador-texto">
-              <label class="input-group-text" for="inputGroupSelect01">Plan</label>
-            </div>
-            <select class="custom-select opcion-cotizador-dropdown" id="dropdownPlanOpciones">
-              <option value="nada" selected>Elegi uno...</option>
-            </select>
-          </div>
+          <button
+            type="button"
+            class="btn btn-primary btn-lg mt-4"
+            id="botonCotizar"
+          >
+            Cotizar
+          </button>
 
-          <button type="button" class="btn btn-primary btn-lg mt-4" id="botonCotizar">Cotizar</button>
-          
-          <div class="alert alert-success mt-4" role="alert" style="display: none;" id="valorCotizacionContenedor">
-          </div>
+          <div
+            class="alert alert-success mt-4"
+            role="alert"
+            style="display: none"
+            id="valorCotizacionContenedor"
+          ></div>
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <!-- Inicio Footer-->
+    <footer class="page-footer" style="background-color: #f8f9fa" width="100%">
+      <div style="background-color: #f8f9fa">
+        <div class="container">
+          <div class="row py-4 d-flex align-items-center">
+            <div class="col-md-12 text-center">
+              <a href="https://www.facebook.com/"
+                ><img src="./img/facebook.png" class="text-white mr-2"
+              /></a>
+              <a href="https://www.instagram.com/"
+                ><img src="./img/instagram.png" class="text-white mr-2"
+              /></a>
+              <a href="https://www.linkedin.com/"
+                ><img src="./img/linkedin.png" class="text-white mr-2"
+              /></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 mx-auto mb-4 text-center">
+            <ul class="list-unstyled">
+              <li class="my-2">Buenos Aires, Argentina.</li>
+              <a href="mailto:contacto@murallaseguros.com"
+                >contacto@murallaseguros.com</a
+              >
+              <li class="my-2">+54 9 4111-1111</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3">
+        <p>Murallas Seguro &copy; 2022</p>
+      </div>
+    </footer>
 
     <!-- JavaScript and dependencies -->
     <script
@@ -87,8 +151,6 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="./js/script.js"
-    ></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
