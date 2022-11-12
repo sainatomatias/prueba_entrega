@@ -11,6 +11,26 @@
     {
       "modelo": "Citroen Berlingo",
       "precio": 2500
+    },
+    {
+      "modelo": "Peugeot 208",
+      "precio": 2500
+    },
+    {
+      "modelo": "Volkswagen Golf",
+      "precio": 3000
+    },
+    {
+      "modelo": "Volkswage      n Sirocco",
+      "precio": 3500
+    },
+    {
+      "modelo": "Chevrolet Cruze",
+      "precio": 3500
+    },
+    {
+      "modelo": "Ford Focus",
+      "precio": 2500
     }
   ],
   "years": [
